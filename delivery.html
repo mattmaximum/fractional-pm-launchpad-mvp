@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fractional PM Launchpad - Workshop Delivery</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --accent: #00ff9d;
+    }
+    .dark {
+      background-color: #0f172a;
+      color: #e2e8f0;
+    }
+    .mono {
+      font-family: 'JetBrains Mono', monospace;
+    }
+  </style>
+</head>
+<body class="dark min-h-screen flex flex-col">
+  <header class="bg-gray-900/50 py-8">
+    <div class="max-w-4xl mx-auto px-4 text-center">
+      <h1 class="text-3xl font-bold mb-2">Fractional PM Launchpad Workshop</h1>
+      <p class="text-xl text-gray-300 mb-4">Access your 3-day workshop recordings &amp; materials</p>
+      <a href="apply.html" class="inline-block bg-accent text-gray-900 px-6 py-3 rounded-lg font-semibold hover:bg-accent/90 transition">
+        Apply for the $3,500 Cohort
+      </a>
+    </div>
+  </header>
+
+  <section class="py-12">
+    <div class="max-w-4xl mx-auto px-4">
+      <h2 class="text-2xl font-semibold mb-6 text-center">Workshop Access</p>
+      <div class="space-y-8">
+        <!-- Day 1 -->
+        <div class="bg-gray-900/50 p-6 rounded-lg">
+          <h3 class="text-xl font-semibold mb-4 mono">Day 1: The Audit</h3>
+          <div class="ratio w-full">
+            <iframe src="https://www.youtube.com/embed/placeholder-day1" title="Day 1 Recording" allowfullscreen></iframe>
+          </div>
+          <p class="text-gray-300 mt-4">Map your current energy leaks, billable skills, and ideal client profile. Discover the 3 hidden time sinks stealing 15+ hours weekly.</p>
+        </div>
+        <!-- Day 2 -->
+        <div class="bg-gray-900/50 p-6 rounded-lg">
+          <h3 class="text-xl font-semibold mb-4 mono">Day 2: The Fix</h3>
+          <div class="ratio w-full">
+            <iframe src="https://www.youtube.com/embed/placeholder-day2" title="Day 2 Recording" allowfullscreen></iframe>
+          </div>
+          <p class="text-gray-300 mt-4">Package your TPM expertise into a fractional offer (scope, pricing, contracts). Learn the 30‑minute daily system that keeps delivery under 20 hrs/week.</p>
+        </div>
+        <!-- Day 3 -->
+        <div class="bg-gray-900/50 p-6 rounded-lg">
+          <h3 class="text-xl font-semibold mb-4 mono">Day 3: The System + Upsell Bridge</h3>
+          <div class="ratio w-full">
+            <iframe src="https://www.youtube.com/embed/placeholder-day3" title="Day 3 Recording" allowfullscreen></iframe>
+          </div>
+          <p class="text-gray-300 mt-4">Build a repeatable client acquisition system, set up automation for invoicing/reporting, and learn how to upsell to a $3,500 mastery cohort.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-gray-900 py-6 text-center text-gray-400">
+    <div class="max-w-4xl mx-auto px-4">
+      &copy; <span id="year"></span> Fractional PM Launchpad. All rights reserved.
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

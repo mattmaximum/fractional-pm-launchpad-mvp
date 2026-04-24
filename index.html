@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fractional PM Launchpad - From TPM to Fractional Freedom</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --accent: #00ff9d;
+    }
+    .dark {
+      background-color: #0f172a;
+      color: #e2e8f0;
+    }
+    .mono {
+      font-family: 'JetBrains Mono', monospace;
+    }
+  </style>
+</head>
+<body class="dark min-h-screen flex flex-col">
+  <header class="bg-gray-900/50 py-8">
+    <div class="max-w-4xl mx-auto px-4 text-center">
+      <h1 class="text-4xl font-bold mb-2">Fractional PM Launchpad</h1>
+      <p class="text-xl text-gray-300 mb-6">From Technical Program Manager to Location-Independent Fractional Practice</p>
+      <a href="#offer" class="inline-block bg-accent text-gray-900 px-6 py-3 rounded-lg font-semibold hover:bg-accent/90 transition">Get the 3-Day Workshop ($197)</a>
+    </div>
+  </header>
+
+  <section id="problem" class="py-12">
+    <div class="max-w-4xl mx-auto px-4">
+      <h2 class="text-2xl font-semibold mb-4 text-center">The Problem</p>
+      <p class="text-gray-300 mb-6">You're skilled at managing complex technical programs, but trading time for money keeps you chained to the desk. Promotions mean more meetings, not more freedom.</p>
+    </div>
+  </section>
+
+  <section id="agitation" class="bg-gray-800/50 py-12">
+    <div class="max-w-4xl mx-auto px-4">
+      <h2 class="text-2xl font-semibold mb-4 text-center">What Happens If You Do Nothing?</p>
+      <ul class="list-disc list-inside text-gray-300 space-y-3">
+        <li>Years of overtime erode your health and family time.</li>
+        <li>Your expertise becomes trapped in corporate ladders that don't value true flexibility.</li>
+        <li>You watch others build side incomes while you stay stuck in the 9‑5 grind.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="solution" class="py-12">
+    <div class="max-w-4xl mx-auto px-4">
+      <h2 class="text-2xl font-semibold mb-4 text-center">The Fractional PM Launchpad Solution</p>
+      <p class="text-gray-300 mb-6">A proven 3‑day workshop that gives you the exact framework to package your TPM skills into high‑ticket fractional offers, land your first clients, and systematize delivery—so you can work <strong>20 hours/week</strong> from anywhere.</p>
+    </div>
+  </section>
+
+  <section id="curriculum" class="bg-gray-800/50 py-12">
+    <div class="max-w-4xl mx-auto px-4">
+      <h2 class="text-2xl font-semibold mb-6 text-center">3‑Day Curriculum Breakdown</p>
+      <div class="grid gap-6 md:grid-cols-3">
+        <div class="bg-gray-900/50 p-4 rounded-lg">
+          <h3 class="text-xl font-semibold mb-2 mono">Day 1: The Audit</h3>
+          <p class="text-gray-300">Map your current energy leaks, billable skills, and ideal client profile. Discover the 3 hidden time sinks stealing 15+ hours weekly.</p>
+        </div>
+        <div class="bg-gray-900/50 p-4 rounded-lg">
+          <h3 class="text-xl font-semibold mb-2 mono">Day 2: The Fix</h3>
+          <p class="text-gray-300">Package your TPM expertise into a fractional offer (scope, pricing, contracts). Learn the 30‑minute daily system that keeps delivery under 20 hrs/week.</p>
+        </div>
+        <div class="bg-gray-900/50 p-4 rounded-lg">
+          <h3 class="text-xl font-semibold mb-2 mono">Day 3: The System + Upsell Bridge</h3>
+          <p class="text-gray-300">Build a repeatable client acquisition system, set up automation for invoicing/reporting, and learn how to upsell to a $3,500 mastery cohort.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="offer" class="py-12">
+    <div class="max-w-4xl mx-auto px-4">
+      <h2 class="text-2xl font-semibold mb-6 text-center">Workshop Offer</p>
+      <div class="bg-gray-900/50 p-6 rounded-lg">
+        <p class="text-gray-300 mb-4">For just <span class="font-bold text-accent text-2xl mono">$197</span> you get:</p>
+        <ul class="list-disc list-inside text-gray-300 space-y-3">
+          <li>Live workshop recordings (3 × 90‑min sessions)</li>
+          <li>Workshop scripts & slide deck (PDF)</li>
+          <li>Fractional offer template pack (contracts, scope doc, pricing calculator)</li>
+          <li>Access to private Discord community for accountability</li>
+          <li>Bonus: “First Client Outreach” email swipe file</li>
+        </ul>
+        <button id="cta" class="w-full bg-accent text-gray-900 px-6 py-3 rounded-lg font-semibold hover:bg-accent/90 transition mt-4">
+          Enroll Now – $197
+        </button>
+        <p class="text-xs text-gray-400 mt-4">(After purchase, you'll be redirected to the delivery page)</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-gray-900 py-6 text-center text-gray-400">
+    <div class="max-w-4xl mx-auto px-4">
+      &copy; <span id="year"></span> Fractional PM Launchpad. All rights reserved.
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    document.getElementById('cta').onclick = function() {
+      // In real implementation, redirect to Stripe checkout or similar
+      alert('Redirecting to checkout... (Insert Stripe link here)');
+      // window.location.href = 'INSERT_STRIPE_LINK_HERE';
+    };
+  </script>
+</body>
+</html>
