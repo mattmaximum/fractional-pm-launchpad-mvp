@@ -1,136 +1,111 @@
 <!DOCTYPE html>
 <html lang="en" class="dark">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The High-Stakes Dad Energy Audit &amp; Reset Workshop</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-            darkMode: 'class',
-            theme: {
-                extend: {
-                    colors: {
-                        primary: '#00ff9d', // electric blue/neon green accent
-                    }
-                }
-            }
-        }
-    </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fractional PM Launchpad - From TPM to Fractional Freedom</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --accent: #00ff9d;
+    }
+    .dark {
+      background-color: #0f172a;
+      color: #e2e8f0;
+    }
+    .mono {
+      font-family: 'JetBrains Mono', monospace;
+    }
+  </style>
 </head>
-<body class="bg-gray-900 text-gray-100 min-h-screen">
-    <!-- Hero Section -->
-    <section class="py-16 px-6 max-w-4xl mx-auto">
-        <div class="text-center">
-            <h1 class="text-4xl font-bold mb-6">The High-Stakes Dad Energy Audit &amp; Reset Workshop</h1>
-            <p class="text-xl text-gray-300 mb-8">
-                For tech dads who are tired of running on fumes. Identify your top 3 energy leaks and reclaim 5 hours of mental clarity per week — without quitting your job or neglecting your family.
-            </p>
-            <div class="space-x-4 justify-center">
-                <a href="INSERT_STRIPE_LINK_HERE" 
-                   class="bg-primary text-gray-900 hover:bg-primary/90 font-semibold py-3 px-8 rounded-lg transition-colors transform hover:scale-105">
-                    Get Instant Access - $197
-                </a>
-                <a href="INSERT_STRIPE_LINK_HERE" 
-                   class="border border-gray-600 hover:border-primary hover:text-primary py-3 px-8 rounded-lg transition-colors transform hover:scale-105">
-                    Learn More
-                </a>
-            </div>
+<body class="dark min-h-screen flex flex-col">
+  <header class="bg-gray-900/50 py-8">
+    <div class="max-w-4xl mx-auto px-4 text-center">
+      <h1 class="text-4xl font-bold mb-2">Fractional PM Launchpad</h1>
+      <p class="text-xl text-gray-300 mb-6">From Technical Program Manager to Location-Independent Fractional Practice</p>
+      <a href="#offer" class="inline-block bg-accent text-gray-900 px-6 py-3 rounded-lg font-semibold hover:bg-accent/90 transition">Get the 3-Day Workshop ($197)</a>
+    </div>
+  </header>
+
+  <section id="problem" class="py-12">
+    <div class="max-w-4xl mx-auto px-4">
+      <h2 class="text-2xl font-semibold mb-4 text-center">The Problem</p>
+      <p class="text-gray-300 mb-6">You're skilled at managing complex technical programs, but trading time for money keeps you chained to the desk. Promotions mean more meetings, not more freedom.</p>
+    </div>
+  </section>
+
+  <section id="agitation" class="bg-gray-800/50 py-12">
+    <div class="max-w-4xl mx-auto px-4">
+      <h2 class="text-2xl font-semibold mb-4 text-center">What Happens If You Do Nothing?</p>
+      <ul class="list-disc list-inside text-gray-300 space-y-3">
+        <li>Years of overtime erode your health and family time.</li>
+        <li>Your expertise becomes trapped in corporate ladders that don't value true flexibility.</li>
+        <li>You watch others build side incomes while you stay stuck in the 9‑5 grind.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="solution" class="py-12">
+    <div class="max-w-4xl mx-auto px-4">
+      <h2 class="text-2xl font-semibold mb-4 text-center">The Fractional PM Launchpad Solution</p>
+      <p class="text-gray-300 mb-6">A proven 3‑day workshop that gives you the exact framework to package your TPM skills into high‑ticket fractional offers, land your first clients, and systematize delivery—so you can work <strong>20 hours/week</strong> from anywhere.</p>
+    </div>
+  </section>
+
+  <section id="curriculum" class="bg-gray-800/50 py-12">
+    <div class="max-w-4xl mx-auto px-4">
+      <h2 class="text-2xl font-semibold mb-6 text-center">3‑Day Curriculum Breakdown</p>
+      <div class="grid gap-6 md:grid-cols-3">
+        <div class="bg-gray-900/50 p-4 rounded-lg">
+          <h3 class="text-xl font-semibold mb-2 mono">Day 1: The Audit</h3>
+          <p class="text-gray-300">Map your current energy leaks, billable skills, and ideal client profile. Discover the 3 hidden time sinks stealing 15+ hours weekly.</p>
         </div>
-    </section>
-
-    <!-- Agitation Section -->
-    <section class="py-16 px-6 max-w-4xl mx-auto bg-gray-800/50">
-        <h2 class="text-3xl font-bold text-center mb-12">Why You're Running on Empty (Even Though You "Have It All")</h2>
-        <div class="grid md:grid-cols-2 gap-8">
-            <div class="space-y-6">
-                <h3 class="text-2xl font-semibold text-primary">The Context Switching Tax</h3>
-                <p class="text-gray-300">
-                    You jump from Jira tickets to Slack fires to bedtime stories. Each switch costs 23 minutes of focus recovery. By Friday, your prefrontal cortex is literally fried.
-                </p>
-            </div>
-            <div class="space-y-6">
-                <h3 class="text-2xl font-semibold text-primary">The Invisible Energy Leaks</h3>
-                <p class="text-gray-300">
-                    It's not the 8-hour workday. It's the 2-hour "quick email check" at 9 PM, the mental replay of that tough conversation, and the guilt that you're not present with your kids.
-                </p>
-            </div>
-            <div class="space-y-6">
-                <h3 class="text-2xl font-semibold text-primary">Physical Stagnation</h3>
-                <p class="text-gray-300">
-                    You used to lift. Now you lift... your kid onto the couch. Sedentary engineering work + zero intentional movement = chronic fatigue and brain fog.
-                </p>
-            </div>
-            <div class="space-y-6">
-                <h3 class="text-2xl font-semibold text-primary">The Decision Fatigue Trap</h3>
-                <p class="text-gray-300">
-                    You make 35,000 decisions a day. By 3 PM, you're choosing the path of least resistance — not what's best for your energy, your marriage, or your legacy.
-                </p>
-            </div>
+        <div class="bg-gray-900/50 p-4 rounded-lg">
+          <h3 class="text-xl font-semibold mb-2 mono">Day 2: The Fix</h3>
+          <p class="text-gray-300">Package your TPM expertise into a fractional offer (scope, pricing, contracts). Learn the 30‑minute daily system that keeps delivery under 20 hrs/week.</p>
         </div>
-    </section>
-
-    <!-- Solution Section -->
-    <section class="py-16 px-6 max-w-4xl mx-auto">
-        <h2 class="text-3xl font-bold text-center mb-12">The 3-Day Energy Audit &amp; Reset Protocol</h2>
-        <p class="text-center text-gray-300 mb-12 max-w-2xl mx-auto">
-            A battle-tested system for analytical minds. No fluff, no vague "self-care" advice. Just measurable energy recovery you can track in a spreadsheet.
-        </p>
-
-        <!-- 3-Day Curriculum Breakdown -->
-        <div class="grid md:grid-cols-3 gap-6">
-            <!-- Day 1 -->
-            <div class="bg-gray-800/50 p-6 rounded-lg border border-gray-700 hover:border-primary transition-colors">
-                <h3 class="text-2xl font-semibold text-primary mb-4">Day 1: The Audit</h3>
-                <p class="text-gray-300 mb-4">
-                    We'll run a forensic energy audit using the <span class="font-mono text-primary">Energy Leak Detector</span> framework. You'll pinpoint exactly where your mental bandwidth is hemorrhaging.
-                </p>
-                <div class="space-y-2 text-sm text-gray-400">
-                    <p>• 90-minute deep-dive assessment</p>
-                    <p>• Customized leak identification worksheet</p>
-                    <p>• Baseline energy score calculation</p>
-                </div>
-            </div>
-
-            <!-- Day 2 -->
-            <div class="bg-gray-800/50 p-6 rounded-lg border border-gray-700 hover:border-primary transition-colors">
-                <h3 class="text-2xl font-semibold text-primary mb-4">Day 2: The Fix</h3>
-                <p class="text-gray-300 mb-4">
-                    Introducing the <span class="font-mono text-primary">15-Minute Kettlebell/Club Reset</span>. We'll frame this as a system optimization problem — because your body is your most critical hardware.
-                </p>
-                <div class="space-y-2 text-sm text-gray-400">
-                    <p>• Neurological reset protocol</p>
-                    <p>• Movement snack programming</p>
-                    <p>• Recovery tracking spreadsheet</p>
-                </div>
-            </div>
-
-            <!-- Day 3 -->
-            <div class="bg-gray-800/50 p-6 rounded-lg border border-gray-700 hover:border-primary transition-colors">
-                <h3 class="text-2xl font-semibold text-primary mb-4">Day 3: The System</h3>
-                <p class="text-gray-300 mb-4">
-                    Build your <span class="font-mono text.primary">Energy Fortress System</span>. We'll design boundaries, rituals, and recovery routines that survive chaos — and position you for the High-Stakes Dad Cohort.
-                </p>
-                <div class="space-y-2 text-sm text-gray-400">
-                    <p>• Daily energy budgeting template</p>
-                    <p>• Boundary enforcement scripts</p>
-                    <p>• Upsell bridge to the 12-week cohort</p>
-                </div>
-            </div>
+        <div class="bg-gray-900/50 p-4 rounded-lg">
+          <h3 class="text-xl font-semibold mb-2 mono">Day 3: The System + Upsell Bridge</h3>
+          <p class="text-gray-300">Build a repeatable client acquisition system, set up automation for invoicing/reporting, and learn how to upsell to a $3,500 mastery cohort.</p>
         </div>
+      </div>
+    </div>
+  </section>
 
-        <!-- Secondary CTA -->
-        <div class="text-center mt-16">
-            <a href="INSERT_STRIPE_LINK_HERE" 
-               class="inline-block bg-primary text-gray-900 hover:bg-primary/90 font-bold py-4 px-12 rounded-lg text-lg transition-colors transform hover:scale-105">
-                Yes, I Want My Energy Back - $197
-            </a>
-        </div>
-    </section>
+  <section id="offer" class="py-12">
+    <div class="max-w-4xl mx-auto px-4">
+      <h2 class="text-2xl font-semibold mb-6 text-center">Workshop Offer</p>
+      <div class="bg-gray-900/50 p-6 rounded-lg">
+        <p class="text-gray-300 mb-4">For just <span class="font-bold text-accent text-2xl mono">$197</span> you get:</p>
+        <ul class="list-disc list-inside text-gray-300 space-y-3">
+          <li>Live workshop recordings (3 × 90‑min sessions)</li>
+          <li>Workshop scripts & slide deck (PDF)</li>
+          <li>Fractional offer template pack (contracts, scope doc, pricing calculator)</li>
+          <li>Access to private Discord community for accountability</li>
+          <li>Bonus: “First Client Outreach” email swipe file</li>
+        </ul>
+        <button id="cta" class="w-full bg-accent text-gray-900 px-6 py-3 rounded-lg font-semibold hover:bg-accent/90 transition mt-4">
+          Enroll Now – $197
+        </button>
+        <p class="text-xs text-gray-400 mt-4">(After purchase, you'll be redirected to the delivery page)</p>
+      </div>
+    </div>
+  </section>
 
-    <!-- Footer -->
-    <footer class="py-8 text-center text-gray-500">
-        <p>&copy; 2026 High-Stakes Dad. All rights reserved.</p>
-    </footer>
+  <footer class="bg-gray-900 py-6 text-center text-gray-400">
+    <div class="max-w-4xl mx-auto px-4">
+      &copy; <span id="year"></span> Fractional PM Launchpad. All rights reserved.
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    document.getElementById('cta').onclick = function() {
+      // In real implementation, redirect to Stripe checkout or similar
+      alert('Redirecting to checkout... (Insert Stripe link here)');
+      // window.location.href = 'INSERT_STRIPE_LINK_HERE';
+    };
+  </script>
 </body>
 </html>

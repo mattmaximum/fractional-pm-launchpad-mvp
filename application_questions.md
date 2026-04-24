@@ -1,24 +1,37 @@
-# Application Questions for the High-Stakes Dad Cohort ($3,500)
+# Fractional PM Mastery Cohort Application Questions
 
-Use these questions in your Google Form to qualify applicants for financial capability, mindset, and commitment.
+## Qualifying Questions for $3,500 Cohort
 
-1. **Financial Commitment**: 
-   "The High-Stakes Dad Cohort requires a $3,500 investment. On a scale of 1-10, how confident are you that you can allocate this amount toward your personal and leadership development without causing financial strain? Please explain your rating."
+1. **Current Role & Experience**
+   - What is your current job title and how many years of experience do you have as a Technical Program Manager or in similar roles?
+   - What industries have you worked in (tech, healthcare, finance, etc.)?
 
-2. **Current Pain Level**:
-   "Describe your top 3 energy or leadership leaks that are currently costing you the most time, mental clarity, or presence with your family. Be specific about the impact (e.g., 'I lose 5 hours weekly to context switching between work and family')."
+2. **Time & Freedom Goals**
+   - How many hours per week are you currently working?
+   - How many hours per week would you ideally like to work while maintaining your income level?
+   - What specific aspects of location/time freedom are most important to you?
 
-3. **Readiness for Change**:
-   "What specific changes are you willing to make in your daily routine to reclaim your energy and leadership? Give examples of boundaries, habits, or routines you would implement."
+3. **Fractional Readiness**
+   - Have you done any freelance, consulting, or side work before? If yes, describe briefly.
+   - What's holding you back from starting a fractional practice right now?
+   - What skills do you feel most confident offering as a fractional PM?
 
-4. **Peer Group Mindset**:
-   "The cohort is a peer group of high-achieving tech dads. How do you envision contributing to the group's success, and what do you hope to gain from the collective experience?"
+4. **Business Mindset**
+   - Are you comfortable having conversations about pricing and contracts with potential clients?
+   - How much time per week can you dedicate to building your fractional practice (marketing, sales, delivery)?
+   - What's your target timeline for launching your first fractional client?
 
-5. **Long-Term Vision**:
-   "If you could wave a magic wand and have your ideal energy, leadership, and family life 12 months from now, what would that look like? Describe in detail."
+5. **Investment & Commitment**
+   - This cohort requires a $3,500 investment. How prepared are you to make this investment in yourself and your business?
+   - What would success look like for you after completing this 12-week program?
+   - Are you ready to implement the systems and strategies taught, even when it feels uncomfortable?
 
-6. **Accountability Preference**:
-   "How do you respond to accountability structures (e.g., weekly check-ins, peer feedback, tracked metrics)? What level of accountability do you need to stay committed to a 12-week program?"
+6. **Community & Collaboration**
+   - How do you feel about participating in a small group setting with other ambitious TPMs?
+   - What can you contribute to the community (experience, resources, connections)?
+   - Are you open to giving and receiving feedback in a group environment?
 
-7. **Past Investment in Self**:
-   "What is the most you have ever invested in a personal/professional development program (excluding formal education)? What was the outcome, and would you do it again?"
+7. **Vision & Long-term Goals**
+   - Where do you see yourself in 12 months if you successfully build your fractional practice?
+   - What would having 20 hours/week of location-independent work enable you to do with your time?
+   - Beyond financial goals, what personal or family motivations drive you toward this path?
